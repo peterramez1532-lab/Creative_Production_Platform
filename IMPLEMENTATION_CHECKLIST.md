@@ -1,0 +1,16 @@
+# Implementation checklist
+- [x] Next.js App Router, TypeScript strict mode, Tailwind, responsive dashboard
+- [x] PostgreSQL Prisma schema and initial migration
+- [x] Seeded local roles and sample project/task workflow
+- [x] Bcrypt password hashing and database-backed HttpOnly sessions
+- [x] Login/logout API and role-checked project/task/submission/QA APIs
+- [x] Zod input validation and audit events
+- [x] Vercel Blob upload authorization, file-type/size checks and metadata persistence
+- [x] GitHub Actions CI and unit/UI smoke test source
+- [x] Environment template and deployment docs
+- [ ] Production admin bootstrap workflow
+- [ ] Private-file download route and secure signed retrieval
+- [ ] Distributed rate limiting
+- [ ] Full organization membership and project-specific client authorization across all endpoints
+- [ ] Messages, notifications, financial tracking UI, training/assessments and analytics modules
+- [ ] Full integration/e2e verification against PostgreSQL and configured Blob credentials
